@@ -1,0 +1,15 @@
+@import "Abstracts/variables";
+@import "Abstracts/functions";
+@import "Abstracts/mixins";
+
+@import "Base/base";
+@import "Base/animations";
+@import "Base/typography";
+@import "Base/utilities";
+
+@import "Layout/CVlayout";
+
+@import "Components/about";
+@import "Components/contact";
+@import "Components/resume";
+@import "Components/skills";

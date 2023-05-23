@@ -1,0 +1,35 @@
+.s-contact {
+  background-color: $color-dark-bg;
+  color: $color-text-light;
+
+  padding: 2rem 4rem;
+  border-top-right-radius: $border-radius-l;
+  border-bottom-left-radius: $border-radius-l;
+
+  &__list {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  &__list-item {
+    font-size: 1.4rem;
+    display: flex;
+    gap: 0.5rem;
+
+    ion-icon {
+      align-self: center;
+    }
+
+    a:link,
+    a:visited {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    &--mail {
+      color: $color-main;
+    }
+  }
+}

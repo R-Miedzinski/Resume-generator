@@ -1,0 +1,33 @@
+// fonts
+$fs: 1.6rem;
+$ls: 1;
+
+// colors
+$color-black: #000;
+$color-white: #fff;
+$color-gray: #333;
+$color-gray-light: #aaa;
+
+$color-dark-bg: #080938;
+// $color-dark-bg: #333;
+$color-light-bg: #e3e3e3;
+
+$color-text-light: #eeeeee;
+$color-main: rgb(125, 199, 168); //#daa520;
+$color-fill: lighten($color-dark-bg, 10%); //#1b1d6d;
+
+$skill-1: $color-fill; //orange;
+$skill-2: $color-fill; //yellow;
+$skill-3: $color-fill; //lime;
+$skill-4: $color-fill; //limegreen;
+$skill-5: $color-fill; //green;
+$skill-native: $color-main; //purple;
+
+// spacing
+$gap: 0.5rem;
+
+// border radius
+$border-radius-s: 5px;
+$border-radius-m: 10px;
+$border-radius-l: 20px;
+$border-radius-xl: 100px;

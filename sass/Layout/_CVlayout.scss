@@ -1,0 +1,14 @@
+.cv-layout {
+  display: grid;
+  grid-template-columns: 58fr 42fr;
+
+  gap: 1rem;
+
+  &__1-col {
+    grid-column: span 1;
+  }
+
+  &__2-col {
+    grid-column: span 1;
+  }
+}

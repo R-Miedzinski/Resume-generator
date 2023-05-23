@@ -1,0 +1,60 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: $fs;
+  line-height: 1.7;
+  color: $color-gray;
+}
+
+.text {
+  // font-sizes
+  &-xs {
+    font-size: $fs / 3;
+  }
+  &-s {
+    font-size: $fs / 2;
+  }
+  &-ms {
+    font-size: $fs * 2 / 3;
+  }
+  &-m {
+    font-size: $fs;
+  }
+  &-ml {
+    font-size: $fs * 3 / 2;
+  }
+  &-l {
+    font-size: $fs * 2;
+  }
+  &-xl {
+    font-size: $fs * 3;
+  }
+  &-xxl {
+    font-size: $fs * 3.5;
+  }
+  &-g1 {
+    font-size: $fs * 4;
+  }
+  &-g2 {
+    font-size: $fs * 5;
+  }
+
+  // font-weights
+  &-light {
+    font-weight: light;
+  }
+  &-normal {
+    font-weight: 400;
+  }
+  &-bold {
+    font-weight: bold;
+  }
+
+  // color
+
+  // center
+  &-center {
+    text-justify: center;
+    text-align: center;
+  }
+}

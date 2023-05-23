@@ -1,0 +1,40 @@
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+
+  background-color: $color-gray;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 1.5rem 3rem 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 210mm;
+  height: 297mm;
+  margin: 0 auto;
+
+  // justify-content: center;
+
+  background-color: $color-white;
+}
+
+.gdpr-clause {
+  padding: 3.2rem 6.4rem;
+  line-height: 1.2;
+  font-size: 1rem;
+}

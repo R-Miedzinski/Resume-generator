@@ -1,0 +1,87 @@
+.s-skills {
+  background-color: $color-light-bg;
+  padding: 1rem 2rem;
+
+  border-top-left-radius: $border-radius-l;
+  border-bottom-right-radius: $border-radius-l;
+
+  &__list-title {
+    color: $color-dark-bg;
+
+    ion-icon {
+      vertical-align: middle;
+    }
+  }
+
+  &__skills-list {
+    display: flex;
+    flex-direction: column;
+
+    gap: 0.5rem;
+
+    &:not(:last-child) {
+      padding-bottom: 1.6rem;
+      border-bottom: 2px solid $color-dark-bg;
+    }
+  }
+
+  &__skills-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  &__skill-name {
+    background-color: $color-light-bg;
+  }
+
+  &__skill-lvl-bar {
+    margin-top: -0.6rem;
+    position: relative;
+    margin-bottom: 1rem;
+
+    * {
+      position: absolute;
+      display: block;
+      height: 1rem;
+
+      border-radius: $border-radius-xl;
+    }
+
+    &--empty {
+      width: 100%;
+
+      background-color: $color-light-bg;
+      border: 1px solid $color-black;
+    }
+
+    &--full {
+      border: 1px solid $color-black;
+
+      &-1 {
+        background-color: $skill-1;
+      }
+
+      &-2 {
+        background-color: $skill-2;
+      }
+
+      &-3 {
+        background-color: $skill-3;
+      }
+
+      &-4 {
+        background-color: $skill-4;
+      }
+
+      &-5 {
+        background-color: $skill-5;
+      }
+
+      &-native {
+        background-color: $skill-native;
+      }
+      // background-color: $color-main;
+    }
+  }
+}
