@@ -17,9 +17,9 @@ skills.forEach((skill) => {
   }
 
   skill.innerHTML = `<span class="s-skills__skill-name">${name}</span>
-                      <span class="s-skills__skill-lvl-bar">
-                      <span class="s-skills__skill-lvl-bar--empty">&nbsp;</span>
-                      <span class="s-skills__skill-lvl-bar--full s-skills__skill-lvl-bar--full-${lvlNum}" style="${bar}">&nbsp;</span>
+  </span>`;
+    // <span class="s-skills__skill-lvl-bar">
+    // <span class="s-skills__skill-lvl-bar--empty">&nbsp;</span>
+    // <span class="s-skills__skill-lvl-bar--full s-skills__skill-lvl-bar--full-${lvlNum}" style="${bar}">&nbsp;</span>
                       
-                      </span>`;
 });
